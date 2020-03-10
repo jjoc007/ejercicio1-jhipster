@@ -1,0 +1,29 @@
+{
+    "name": "Channel",
+    "fields": [
+        {
+            "fieldName": "type",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "otherEntityName": "day",
+            "otherEntityRelationshipName": "channels",
+            "relationshipName": "day"
+        }
+    ],
+    "changelogDate": "20200310044700",
+    "javadoc": "Channel entity.",
+    "entityTableName": "channel",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "embedded": false,
+    "clientRootFolder": "",
+    "applications": "*"
+}

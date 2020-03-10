@@ -1,0 +1,23 @@
+{
+  "broadcastApp": {
+    "channel": {
+      "home": {
+        "title": "Channels",
+        "createLabel": "Creeare o nouă entitate Channel",
+        "createOrEditLabel": "Creeare sau editare Channel",
+        "notFound": "No Channels found"
+      },
+      "created": "A fost creată o nouă entitate Channel cu identificatorul {{ param }}",
+      "updated": "Channel cu identificatorul {{ param }} a fost actualizată",
+      "deleted": "Channel cu identificatorul {{ param }} a fost ștearsă",
+      "delete": {
+        "question": "Sunteți sigur că doriți să ștergeți Channel {{ id }}?"
+      },
+      "detail": {
+        "title": "Channel"
+      },
+      "type": "Type",
+      "day": "Day"
+    }
+  }
+}

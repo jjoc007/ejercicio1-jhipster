@@ -1,0 +1,24 @@
+{
+  "broadcastApp": {
+    "day": {
+      "home": {
+        "title": "Days",
+        "createLabel": "Buat Day baru",
+        "createOrEditLabel": "Buat atau edit Day",
+        "notFound": "No Days found"
+      },
+      "created": "Day dengan id {{ param }} telah dibuat",
+      "updated": "Day dengan id {{ param }} telah diperbaharui",
+      "deleted": "Day dengan id {{ param }} telah dihapus",
+      "delete": {
+        "question": "Apakah anda yakin ingin menghapus Day {{ id }}?"
+      },
+      "detail": {
+        "title": "Day"
+      },
+      "date": "Date",
+      "channels": "Channels",
+      "calendars": "Calendars"
+    }
+  }
+}

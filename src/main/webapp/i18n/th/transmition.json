@@ -1,0 +1,24 @@
+{
+  "broadcastApp": {
+    "transmition": {
+      "home": {
+        "title": "Transmitions",
+        "createLabel": "สร้าง Transmition",
+        "createOrEditLabel": "สร้างหรือแก้ไข Transmition",
+        "notFound": "No Transmitions found"
+      },
+      "created": "Transmition ถูกสร้างด้วย {{ param }}",
+      "updated": "Transmition ถูกแก้ไขด้วย {{ param }}",
+      "deleted": "Transmition ถูกลบด้วย {{ param }}",
+      "delete": {
+        "question": "คุณต้องการที่จะลบ Transmition {{ id }}?"
+      },
+      "detail": {
+        "title": "Transmition"
+      },
+      "name": "Name",
+      "calendar": "Calendar",
+      "id": "Id"
+    }
+  }
+}

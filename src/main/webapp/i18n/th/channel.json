@@ -1,0 +1,23 @@
+{
+  "broadcastApp": {
+    "channel": {
+      "home": {
+        "title": "Channels",
+        "createLabel": "สร้าง Channel",
+        "createOrEditLabel": "สร้างหรือแก้ไข Channel",
+        "notFound": "No Channels found"
+      },
+      "created": "Channel ถูกสร้างด้วย {{ param }}",
+      "updated": "Channel ถูกแก้ไขด้วย {{ param }}",
+      "deleted": "Channel ถูกลบด้วย {{ param }}",
+      "delete": {
+        "question": "คุณต้องการที่จะลบ Channel {{ id }}?"
+      },
+      "detail": {
+        "title": "Channel"
+      },
+      "type": "Type",
+      "day": "Day"
+    }
+  }
+}

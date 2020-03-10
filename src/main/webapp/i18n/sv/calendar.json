@@ -1,0 +1,25 @@
+{
+  "broadcastApp": {
+    "calendar": {
+      "home": {
+        "title": "Calendars",
+        "createLabel": "Skapa en ny Calendar",
+        "createOrEditLabel": "Skapa eller ändra en Calendar",
+        "notFound": "No Calendars found"
+      },
+      "created": "En ny Calendar är skapad med id {{ param }}",
+      "updated": "En Calendar är uppdaterad med id  {{ param }}",
+      "deleted": "En Calendar är borttagen med id  {{ param }}",
+      "delete": {
+        "question": "Är du säker på att du vill ta bort Calendar {{ id }}?"
+      },
+      "detail": {
+        "title": "Calendar"
+      },
+      "initialHour": "Initial Hour",
+      "finalHour": "Final Hour",
+      "day": "Day",
+      "transmitions": "Transmitions"
+    }
+  }
+}

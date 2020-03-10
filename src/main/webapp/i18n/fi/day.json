@@ -1,0 +1,24 @@
+{
+  "broadcastApp": {
+    "day": {
+      "home": {
+        "title": "Days",
+        "createLabel": "Luo Day",
+        "createOrEditLabel": "Luo tai muokkaa Day",
+        "notFound": "Day ei löytynyt"
+      },
+      "created": "Uusi Day on luotu, id: {{ param }}",
+      "updated": "Day on päivitetty, id: {{ param }}",
+      "deleted": "Day on päivitetty, id: {{ param }}",
+      "delete": {
+        "question": "Haluatko varmasti poistaa Day {{ id }}?"
+      },
+      "detail": {
+        "title": "Day"
+      },
+      "date": "Date",
+      "channels": "Channels",
+      "calendars": "Calendars"
+    }
+  }
+}

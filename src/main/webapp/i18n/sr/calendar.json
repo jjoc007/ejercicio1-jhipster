@@ -1,0 +1,25 @@
+{
+  "broadcastApp": {
+    "calendar": {
+      "home": {
+        "title": "Calendars",
+        "createLabel": "Kreiraj novi Calendar",
+        "createOrEditLabel": "Kreirajte ili izmenite Calendar",
+        "notFound": "No Calendars found"
+      },
+      "created": "Kreiran je novi Calendar pod nazivom {{ param }}",
+      "updated": "Calendar pod nazivom {{ param }} je ažuriran",
+      "deleted": "Calendar pod nazivom {{ param }} je obrisan",
+      "delete": {
+        "question": "Da li ste sigurni da želite da obrišete Calendar pod nazivom {{ id }}?"
+      },
+      "detail": {
+        "title": "Calendar"
+      },
+      "initialHour": "Initial Hour",
+      "finalHour": "Final Hour",
+      "day": "Day",
+      "transmitions": "Transmitions"
+    }
+  }
+}

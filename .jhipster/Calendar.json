@@ -1,0 +1,40 @@
+{
+    "name": "Calendar",
+    "fields": [
+        {
+            "fieldName": "initialHour",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "finalHour",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "otherEntityName": "day",
+            "otherEntityRelationshipName": "calendars",
+            "relationshipName": "day"
+        },
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "transmition",
+            "otherEntityRelationshipName": "calendar",
+            "relationshipName": "transmitions",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20200310044900",
+    "javadoc": "Calendar entity.",
+    "entityTableName": "calendar",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "embedded": false,
+    "clientRootFolder": "",
+    "applications": "*"
+}

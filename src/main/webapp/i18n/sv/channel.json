@@ -1,0 +1,23 @@
+{
+  "broadcastApp": {
+    "channel": {
+      "home": {
+        "title": "Channels",
+        "createLabel": "Skapa en ny Channel",
+        "createOrEditLabel": "Skapa eller ändra en Channel",
+        "notFound": "No Channels found"
+      },
+      "created": "En ny Channel är skapad med id {{ param }}",
+      "updated": "En Channel är uppdaterad med id  {{ param }}",
+      "deleted": "En Channel är borttagen med id  {{ param }}",
+      "delete": {
+        "question": "Är du säker på att du vill ta bort Channel {{ id }}?"
+      },
+      "detail": {
+        "title": "Channel"
+      },
+      "type": "Type",
+      "day": "Day"
+    }
+  }
+}

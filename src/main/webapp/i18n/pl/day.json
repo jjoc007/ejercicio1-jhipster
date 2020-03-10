@@ -1,0 +1,24 @@
+{
+  "broadcastApp": {
+    "day": {
+      "home": {
+        "title": "Day",
+        "createLabel": "Dodaj Day",
+        "createOrEditLabel": "Dodaj lub edytuj: Day",
+        "notFound": "No Days found"
+      },
+      "created": "Utworzono nowy obiekt typu Day z identyfikatorem {{ param }}",
+      "updated": "Uaktualniono obiekt typu Day z identyfikatorem {{ param }}",
+      "deleted": "Usunięto obiekt typu Day z identyfikatorem {{ param }}",
+      "delete": {
+        "question": "Czy na pewno chcesz usunąć Day {{ id }}?"
+      },
+      "detail": {
+        "title": "Day"
+      },
+      "date": "Date",
+      "channels": "Channels",
+      "calendars": "Calendars"
+    }
+  }
+}

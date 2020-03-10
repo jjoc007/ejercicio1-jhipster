@@ -1,0 +1,24 @@
+{
+  "broadcastApp": {
+    "day": {
+      "home": {
+        "title": "Days",
+        "createLabel": "Maak een nieuwe Day",
+        "createOrEditLabel": "Maak of wijzig een Day",
+        "notFound": "No Days found"
+      },
+      "created": "A new Day is created with identifier {{ param }}",
+      "updated": "A Day is updated with identifier {{ param }}",
+      "deleted": "A Day is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Bent u zeker dat u Day {{ id }} wilt verwijderen?"
+      },
+      "detail": {
+        "title": "Day"
+      },
+      "date": "Date",
+      "channels": "Channels",
+      "calendars": "Calendars"
+    }
+  }
+}

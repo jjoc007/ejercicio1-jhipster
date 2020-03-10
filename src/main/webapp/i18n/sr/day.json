@@ -1,0 +1,24 @@
+{
+  "broadcastApp": {
+    "day": {
+      "home": {
+        "title": "Days",
+        "createLabel": "Kreiraj novi Day",
+        "createOrEditLabel": "Kreirajte ili izmenite Day",
+        "notFound": "No Days found"
+      },
+      "created": "Kreiran je novi Day pod nazivom {{ param }}",
+      "updated": "Day pod nazivom {{ param }} je ažuriran",
+      "deleted": "Day pod nazivom {{ param }} je obrisan",
+      "delete": {
+        "question": "Da li ste sigurni da želite da obrišete Day pod nazivom {{ id }}?"
+      },
+      "detail": {
+        "title": "Day"
+      },
+      "date": "Date",
+      "channels": "Channels",
+      "calendars": "Calendars"
+    }
+  }
+}

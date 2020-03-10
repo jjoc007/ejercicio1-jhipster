@@ -1,0 +1,24 @@
+{
+  "broadcastApp": {
+    "transmition": {
+      "home": {
+        "title": "Transmitions",
+        "createLabel": "Vytvořit Transmition",
+        "createOrEditLabel": "Vytvořit nebo upravit Transmition",
+        "notFound": "No Transmitions found"
+      },
+      "created": "Byl vytvořen potomek entity Transmition s identifikátorem {{ param }}",
+      "updated": "Potomek entity Transmition s identifikátorem {{ param }} byl upravený.",
+      "deleted": "Potomek entity Transmition s identifikátorem {{ param }} bol smazaný.",
+      "delete": {
+        "question": "Jste si jisti, že chcete smazat Transmition {{ id }}?"
+      },
+      "detail": {
+        "title": "Transmition"
+      },
+      "name": "Name",
+      "calendar": "Calendar",
+      "id": "Id"
+    }
+  }
+}

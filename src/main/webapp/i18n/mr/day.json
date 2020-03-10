@@ -1,0 +1,24 @@
+{
+  "broadcastApp": {
+    "day": {
+      "home": {
+        "title": "Days",
+        "createLabel": "नवीन Day तयार करा",
+        "createOrEditLabel": "Day तयार किंवा संपादित करा",
+        "notFound": "No Days found"
+      },
+      "created": "Day [identifier: {{ param }}] तयार आहे",
+      "updated": "Day [identifier: {{ param }}] सुधारित केले आहे",
+      "deleted": "Day [identifier: {{ param }}] हटविले आहे",
+      "delete": {
+        "question": "Day [id: {{ id }}] काढून टाकण्याबाबत पुष्टी?"
+      },
+      "detail": {
+        "title": "Day"
+      },
+      "date": "Date",
+      "channels": "Channels",
+      "calendars": "Calendars"
+    }
+  }
+}

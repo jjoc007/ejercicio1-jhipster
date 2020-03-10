@@ -10,6 +10,11 @@
         "bankAccount": "ContBancar",
         "label": "Etichetă",
         "operation": "Operație",
+        "channel": "Channel",
+        "day": "Day",
+        "calendar": "Calendar",
+        "transmition": "Transmition",
+        "category": "Category",
         "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
       },
       "account": {

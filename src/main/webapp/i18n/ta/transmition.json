@@ -1,0 +1,24 @@
+{
+  "broadcastApp": {
+    "transmition": {
+      "home": {
+        "title": "Transmitions",
+        "createLabel": "Transmition-ஐ உருவாக்கு",
+        "createOrEditLabel": "Transmition -ஐ மாற்று (அ) உருவாக்கு",
+        "notFound": "No Transmitions found"
+      },
+      "created": "Transmition புதிதாக உருவாக்கப்பட்டது, அடையாளம் {{ param }}",
+      "updated": "Transmition மாற்றப்பட்டது, அடையாளம்  {{ param }}",
+      "deleted": "A Transmition நீக்கப்பட்டது, அடையாளம {{ param }}",
+      "delete": {
+        "question": "நீக்குவதற்கு உறுதி செய் Transmition {{ id }}?"
+      },
+      "detail": {
+        "title": "Transmition"
+      },
+      "name": "Name",
+      "calendar": "Calendar",
+      "id": "Id"
+    }
+  }
+}

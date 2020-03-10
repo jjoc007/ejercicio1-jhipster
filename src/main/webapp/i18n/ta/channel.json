@@ -1,0 +1,23 @@
+{
+  "broadcastApp": {
+    "channel": {
+      "home": {
+        "title": "Channels",
+        "createLabel": "Channel-ஐ உருவாக்கு",
+        "createOrEditLabel": "Channel -ஐ மாற்று (அ) உருவாக்கு",
+        "notFound": "No Channels found"
+      },
+      "created": "Channel புதிதாக உருவாக்கப்பட்டது, அடையாளம் {{ param }}",
+      "updated": "Channel மாற்றப்பட்டது, அடையாளம்  {{ param }}",
+      "deleted": "A Channel நீக்கப்பட்டது, அடையாளம {{ param }}",
+      "delete": {
+        "question": "நீக்குவதற்கு உறுதி செய் Channel {{ id }}?"
+      },
+      "detail": {
+        "title": "Channel"
+      },
+      "type": "Type",
+      "day": "Day"
+    }
+  }
+}

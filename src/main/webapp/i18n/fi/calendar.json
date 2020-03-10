@@ -1,0 +1,25 @@
+{
+  "broadcastApp": {
+    "calendar": {
+      "home": {
+        "title": "Calendars",
+        "createLabel": "Luo Calendar",
+        "createOrEditLabel": "Luo tai muokkaa Calendar",
+        "notFound": "Calendar ei löytynyt"
+      },
+      "created": "Uusi Calendar on luotu, id: {{ param }}",
+      "updated": "Calendar on päivitetty, id: {{ param }}",
+      "deleted": "Calendar on päivitetty, id: {{ param }}",
+      "delete": {
+        "question": "Haluatko varmasti poistaa Calendar {{ id }}?"
+      },
+      "detail": {
+        "title": "Calendar"
+      },
+      "initialHour": "Initial Hour",
+      "finalHour": "Final Hour",
+      "day": "Day",
+      "transmitions": "Transmitions"
+    }
+  }
+}

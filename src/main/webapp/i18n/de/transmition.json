@@ -1,0 +1,24 @@
+{
+  "broadcastApp": {
+    "transmition": {
+      "home": {
+        "title": "Transmitions",
+        "createLabel": "Transmition erstellen",
+        "createOrEditLabel": "Transmition erstellen oder bearbeiten",
+        "notFound": "No Transmitions found"
+      },
+      "created": "Transmition erstellt mit ID {{ param }}",
+      "updated": "Transmition aktualisiert mit ID {{ param }}",
+      "deleted": "Transmition gelöscht mit ID {{ param }}",
+      "delete": {
+        "question": "Soll Transmition {{ id }} wirklich dauerhaft gelöscht werden?"
+      },
+      "detail": {
+        "title": "Transmition"
+      },
+      "name": "Name",
+      "calendar": "Calendar",
+      "id": "Id"
+    }
+  }
+}

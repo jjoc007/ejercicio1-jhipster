@@ -1,0 +1,37 @@
+{
+    "name": "Transmition",
+    "fields": [
+        {
+            "fieldName": "name",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "otherEntityName": "calendar",
+            "otherEntityRelationshipName": "transmitions",
+            "relationshipName": "calendar"
+        },
+        {
+            "relationshipType": "many-to-many",
+            "otherEntityName": "category",
+            "otherEntityRelationshipName": "id",
+            "relationshipName": "id",
+            "otherEntityField": "id",
+            "ownerSide": false
+        }
+    ],
+    "changelogDate": "20200310045000",
+    "javadoc": "Transmition entity.",
+    "entityTableName": "transmition",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "embedded": false,
+    "clientRootFolder": "",
+    "applications": "*"
+}

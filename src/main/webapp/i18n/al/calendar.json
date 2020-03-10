@@ -1,0 +1,25 @@
+{
+  "broadcastApp": {
+    "calendar": {
+      "home": {
+        "title": "Calendars",
+        "createLabel": "Krijo një të ri Calendar",
+        "createOrEditLabel": "Krijo ose përpuno një Calendar",
+        "notFound": "No Calendars found"
+      },
+      "created": "Një Calendar i ri u krijua me identifikues {{ param }}",
+      "updated": "Një Calendar u përpunua me identifikues {{ param }}",
+      "deleted": "Një Calendar u fshi me identifikues {{ param }}",
+      "delete": {
+        "question": "Jeni i sigurtë që doni të fshini Calendar {{ id }}?"
+      },
+      "detail": {
+        "title": "Calendar"
+      },
+      "initialHour": "Initial Hour",
+      "finalHour": "Final Hour",
+      "day": "Day",
+      "transmitions": "Transmitions"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "broadcastApp": {
+    "channel": {
+      "home": {
+        "title": "Channels",
+        "createLabel": "Krijo një të ri Channel",
+        "createOrEditLabel": "Krijo ose përpuno një Channel",
+        "notFound": "No Channels found"
+      },
+      "created": "Një Channel i ri u krijua me identifikues {{ param }}",
+      "updated": "Një Channel u përpunua me identifikues {{ param }}",
+      "deleted": "Një Channel u fshi me identifikues {{ param }}",
+      "delete": {
+        "question": "Jeni i sigurtë që doni të fshini Channel {{ id }}?"
+      },
+      "detail": {
+        "title": "Channel"
+      },
+      "type": "Type",
+      "day": "Day"
+    }
+  }
+}

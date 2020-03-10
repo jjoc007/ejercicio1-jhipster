@@ -1,0 +1,24 @@
+{
+  "broadcastApp": {
+    "transmition": {
+      "home": {
+        "title": "Transmitions",
+        "createLabel": "Янги Transmition қўшиш",
+        "createOrEditLabel": "Transmitionни таҳрирлаш",
+        "notFound": "No Transmitions found"
+      },
+      "created": "Transmition {{ param }} билан қўшилди.",
+      "updated": "{{ param }}- Transmition сақланди.",
+      "deleted": "{{ param }}- Transmition ўчирилди.",
+      "delete": {
+        "question": "{{ id }}- Transmitionни ўчирмоқчимисиз? "
+      },
+      "detail": {
+        "title": "Transmition"
+      },
+      "name": "Name",
+      "calendar": "Calendar",
+      "id": "Id"
+    }
+  }
+}

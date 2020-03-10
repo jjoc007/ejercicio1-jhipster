@@ -1,0 +1,24 @@
+{
+  "broadcastApp": {
+    "day": {
+      "home": {
+        "title": "Days",
+        "createLabel": "Yangi Day qo`shish",
+        "createOrEditLabel": "Dayni tahrirlash",
+        "notFound": "No Days found"
+      },
+      "created": "Day {{ param }} bilan qo`shildi",
+      "updated": "{{ param }}- Day saqlandi",
+      "deleted": "{{ param }}- Day o`chirildi",
+      "delete": {
+        "question": "{{ id }}- Dayni o`chirmoqchimisiz? "
+      },
+      "detail": {
+        "title": "Day"
+      },
+      "date": "Date",
+      "channels": "Channels",
+      "calendars": "Calendars"
+    }
+  }
+}

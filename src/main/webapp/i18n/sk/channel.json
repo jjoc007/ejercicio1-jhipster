@@ -1,0 +1,23 @@
+{
+  "broadcastApp": {
+    "channel": {
+      "home": {
+        "title": "Channels",
+        "createLabel": "Pridať Channel",
+        "createOrEditLabel": "Pridať alebo upraviť Channel",
+        "notFound": "No Channels found"
+      },
+      "created": "Bol vytvorený potomok entity Channel s identifikátorom {{ param }}",
+      "updated": "Potomok entity Channel s identifikátorom {{ param }} bol upravený.",
+      "deleted": "Potomok entity Channel s identifikátorom {{ param }} bol vymazaný.",
+      "delete": {
+        "question": "Ste si istý, že chcete vymazať Channel {{ id }}?"
+      },
+      "detail": {
+        "title": "Channel"
+      },
+      "type": "Type",
+      "day": "Day"
+    }
+  }
+}

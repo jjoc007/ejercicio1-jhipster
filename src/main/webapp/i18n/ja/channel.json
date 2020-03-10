@@ -1,0 +1,23 @@
+{
+  "broadcastApp": {
+    "channel": {
+      "home": {
+        "title": "Channels",
+        "createLabel": "Channel を追加",
+        "createOrEditLabel": "Channelを追加または編集",
+        "notFound": "No Channels found"
+      },
+      "created": "A new Channel is created with identifier {{ param }}",
+      "updated": "A Channel is updated with identifier {{ param }}",
+      "deleted": "A Channel is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Channel {{ id }}を削除してもよろしいですか？"
+      },
+      "detail": {
+        "title": "Channel"
+      },
+      "type": "Type",
+      "day": "Day"
+    }
+  }
+}

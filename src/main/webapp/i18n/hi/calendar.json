@@ -1,0 +1,25 @@
+{
+  "broadcastApp": {
+    "calendar": {
+      "home": {
+        "title": "Calendars",
+        "createLabel": "नया Calendar बनाएँ",
+        "createOrEditLabel": "Calendar बनाएँ या संपादित करें",
+        "notFound": "No Calendars found"
+      },
+      "created": "एक नया Calendar [identifier: {{ param }}] तैयार है",
+      "updated": "एक Calendar [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "Calendar [identifier: {{ param }}] हटा दिया है",
+      "delete": {
+        "question": "Calendar [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "Calendar"
+      },
+      "initialHour": "Initial Hour",
+      "finalHour": "Final Hour",
+      "day": "Day",
+      "transmitions": "Transmitions"
+    }
+  }
+}

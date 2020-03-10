@@ -1,0 +1,25 @@
+{
+  "broadcastApp": {
+    "calendar": {
+      "home": {
+        "title": "Calendars",
+        "createLabel": "Янги Calendar қўшиш",
+        "createOrEditLabel": "Calendarни таҳрирлаш",
+        "notFound": "No Calendars found"
+      },
+      "created": "Calendar {{ param }} билан қўшилди.",
+      "updated": "{{ param }}- Calendar сақланди.",
+      "deleted": "{{ param }}- Calendar ўчирилди.",
+      "delete": {
+        "question": "{{ id }}- Calendarни ўчирмоқчимисиз? "
+      },
+      "detail": {
+        "title": "Calendar"
+      },
+      "initialHour": "Initial Hour",
+      "finalHour": "Final Hour",
+      "day": "Day",
+      "transmitions": "Transmitions"
+    }
+  }
+}

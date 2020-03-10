@@ -1,0 +1,24 @@
+{
+  "broadcastApp": {
+    "transmition": {
+      "home": {
+        "title": "Transmitions",
+        "createLabel": "Luo Transmition",
+        "createOrEditLabel": "Luo tai muokkaa Transmition",
+        "notFound": "Transmition ei löytynyt"
+      },
+      "created": "Uusi Transmition on luotu, id: {{ param }}",
+      "updated": "Transmition on päivitetty, id: {{ param }}",
+      "deleted": "Transmition on päivitetty, id: {{ param }}",
+      "delete": {
+        "question": "Haluatko varmasti poistaa Transmition {{ id }}?"
+      },
+      "detail": {
+        "title": "Transmition"
+      },
+      "name": "Name",
+      "calendar": "Calendar",
+      "id": "Id"
+    }
+  }
+}

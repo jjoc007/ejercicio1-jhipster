@@ -1,0 +1,25 @@
+{
+  "broadcastApp": {
+    "calendar": {
+      "home": {
+        "title": "Calendars",
+        "createLabel": "Yangi Calendar qo`shish",
+        "createOrEditLabel": "Calendarni tahrirlash",
+        "notFound": "No Calendars found"
+      },
+      "created": "Calendar {{ param }} bilan qo`shildi",
+      "updated": "{{ param }}- Calendar saqlandi",
+      "deleted": "{{ param }}- Calendar o`chirildi",
+      "delete": {
+        "question": "{{ id }}- Calendarni o`chirmoqchimisiz? "
+      },
+      "detail": {
+        "title": "Calendar"
+      },
+      "initialHour": "Initial Hour",
+      "finalHour": "Final Hour",
+      "day": "Day",
+      "transmitions": "Transmitions"
+    }
+  }
+}

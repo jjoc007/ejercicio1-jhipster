@@ -1,0 +1,24 @@
+{
+  "broadcastApp": {
+    "transmition": {
+      "home": {
+        "title": "Transmitions",
+        "createLabel": "Transmition を追加",
+        "createOrEditLabel": "Transmitionを追加または編集",
+        "notFound": "No Transmitions found"
+      },
+      "created": "A new Transmition is created with identifier {{ param }}",
+      "updated": "A Transmition is updated with identifier {{ param }}",
+      "deleted": "A Transmition is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Transmition {{ id }}を削除してもよろしいですか？"
+      },
+      "detail": {
+        "title": "Transmition"
+      },
+      "name": "Name",
+      "calendar": "Calendar",
+      "id": "Id"
+    }
+  }
+}

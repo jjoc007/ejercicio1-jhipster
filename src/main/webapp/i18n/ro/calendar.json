@@ -1,0 +1,25 @@
+{
+  "broadcastApp": {
+    "calendar": {
+      "home": {
+        "title": "Calendars",
+        "createLabel": "Creeare o nouă entitate Calendar",
+        "createOrEditLabel": "Creeare sau editare Calendar",
+        "notFound": "No Calendars found"
+      },
+      "created": "A fost creată o nouă entitate Calendar cu identificatorul {{ param }}",
+      "updated": "Calendar cu identificatorul {{ param }} a fost actualizată",
+      "deleted": "Calendar cu identificatorul {{ param }} a fost ștearsă",
+      "delete": {
+        "question": "Sunteți sigur că doriți să ștergeți Calendar {{ id }}?"
+      },
+      "detail": {
+        "title": "Calendar"
+      },
+      "initialHour": "Initial Hour",
+      "finalHour": "Final Hour",
+      "day": "Day",
+      "transmitions": "Transmitions"
+    }
+  }
+}

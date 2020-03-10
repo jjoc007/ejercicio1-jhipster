@@ -1,0 +1,23 @@
+{
+  "broadcastApp": {
+    "channel": {
+      "home": {
+        "title": "Channels",
+        "createLabel": "Kreiraj novi Channel",
+        "createOrEditLabel": "Kreirajte ili izmenite Channel",
+        "notFound": "No Channels found"
+      },
+      "created": "Kreiran je novi Channel pod nazivom {{ param }}",
+      "updated": "Channel pod nazivom {{ param }} je ažuriran",
+      "deleted": "Channel pod nazivom {{ param }} je obrisan",
+      "delete": {
+        "question": "Da li ste sigurni da želite da obrišete Channel pod nazivom {{ id }}?"
+      },
+      "detail": {
+        "title": "Channel"
+      },
+      "type": "Type",
+      "day": "Day"
+    }
+  }
+}

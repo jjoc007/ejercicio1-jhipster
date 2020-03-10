@@ -1,0 +1,24 @@
+{
+  "broadcastApp": {
+    "day": {
+      "home": {
+        "title": "Days",
+        "createLabel": "Ստեղծել նոր Day",
+        "createOrEditLabel": "Ստեղծել կամ փոփոխել Day",
+        "notFound": "No Days found"
+      },
+      "created": "Նոր Day ստեղծված է {{ param }} նունացուցիչով",
+      "updated": "Day թարմացվաց է {{ param }} նունացուցիչով",
+      "deleted": "Day հեռացված է {{ param }}  նունացուցիչով",
+      "delete": {
+        "question": "Դուք վստահ ե՞ք, որ ցանկանում եք հեռացնել Day {{ id }}?"
+      },
+      "detail": {
+        "title": "Day"
+      },
+      "date": "Date",
+      "channels": "Channels",
+      "calendars": "Calendars"
+    }
+  }
+}

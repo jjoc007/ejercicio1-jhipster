@@ -1,0 +1,25 @@
+{
+  "broadcastApp": {
+    "calendar": {
+      "home": {
+        "title": "Calendars",
+        "createLabel": "Створити новий Calendar",
+        "createOrEditLabel": "Створити чи редагувати Calendar",
+        "notFound": "No Calendars found"
+      },
+      "created": "Новий Calendar створений з ідентифікатором {{ param }}",
+      "updated": "Calendar оновлений з ідентифікатором {{ param }}",
+      "deleted": "Calendar видалений з ідентифікатором {{ param }}",
+      "delete": {
+        "question": "Ви впевнені, що хочете видалити Calendar {{ id }}?"
+      },
+      "detail": {
+        "title": "Calendar"
+      },
+      "initialHour": "Initial Hour",
+      "finalHour": "Final Hour",
+      "day": "Day",
+      "transmitions": "Transmitions"
+    }
+  }
+}

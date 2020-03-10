@@ -1,0 +1,24 @@
+{
+  "broadcastApp": {
+    "day": {
+      "home": {
+        "title": "Days",
+        "createLabel": "Day を追加",
+        "createOrEditLabel": "Dayを追加または編集",
+        "notFound": "No Days found"
+      },
+      "created": "A new Day is created with identifier {{ param }}",
+      "updated": "A Day is updated with identifier {{ param }}",
+      "deleted": "A Day is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Day {{ id }}を削除してもよろしいですか？"
+      },
+      "detail": {
+        "title": "Day"
+      },
+      "date": "Date",
+      "channels": "Channels",
+      "calendars": "Calendars"
+    }
+  }
+}

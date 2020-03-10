@@ -1,0 +1,23 @@
+{
+  "broadcastApp": {
+    "channel": {
+      "home": {
+        "title": "Channels",
+        "createLabel": "Luo Channel",
+        "createOrEditLabel": "Luo tai muokkaa Channel",
+        "notFound": "Channel ei löytynyt"
+      },
+      "created": "Uusi Channel on luotu, id: {{ param }}",
+      "updated": "Channel on päivitetty, id: {{ param }}",
+      "deleted": "Channel on päivitetty, id: {{ param }}",
+      "delete": {
+        "question": "Haluatko varmasti poistaa Channel {{ id }}?"
+      },
+      "detail": {
+        "title": "Channel"
+      },
+      "type": "Type",
+      "day": "Day"
+    }
+  }
+}

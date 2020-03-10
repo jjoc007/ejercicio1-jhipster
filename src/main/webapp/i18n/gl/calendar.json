@@ -1,0 +1,25 @@
+{
+  "broadcastApp": {
+    "calendar": {
+      "home": {
+        "title": "Calendars",
+        "createLabel": "Crear novo Calendar",
+        "createOrEditLabel": "Crear ou editar Calendar",
+        "notFound": "No Calendars found"
+      },
+      "created": "Un novo Calendar foi creado co identificador {{ param }}",
+      "updated": "Un Calendar foi actualizado co identificador {{ param }}",
+      "deleted": "Un Calendar foi eliminado co identificador {{ param }}",
+      "delete": {
+        "question": "Seguro que desexa eliminar Calendar {{ id }}?"
+      },
+      "detail": {
+        "title": "Calendar"
+      },
+      "initialHour": "Initial Hour",
+      "finalHour": "Final Hour",
+      "day": "Day",
+      "transmitions": "Transmitions"
+    }
+  }
+}

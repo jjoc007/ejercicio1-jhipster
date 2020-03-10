@@ -1,0 +1,23 @@
+{
+  "broadcastApp": {
+    "channel": {
+      "home": {
+        "title": "Channels",
+        "createLabel": "Buat Channel baru",
+        "createOrEditLabel": "Buat atau edit Channel",
+        "notFound": "No Channels found"
+      },
+      "created": "Channel dengan id {{ param }} telah dibuat",
+      "updated": "Channel dengan id {{ param }} telah diperbaharui",
+      "deleted": "Channel dengan id {{ param }} telah dihapus",
+      "delete": {
+        "question": "Apakah anda yakin ingin menghapus Channel {{ id }}?"
+      },
+      "detail": {
+        "title": "Channel"
+      },
+      "type": "Type",
+      "day": "Day"
+    }
+  }
+}

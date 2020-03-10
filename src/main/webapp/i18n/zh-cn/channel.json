@@ -1,0 +1,23 @@
+{
+  "broadcastApp": {
+    "channel": {
+      "home": {
+        "title": "Channels",
+        "createLabel": "创建新 Channel",
+        "createOrEditLabel": "创建或编辑 Channel",
+        "notFound": "No Channels found"
+      },
+      "created": "Channel {{ param }} 创建成功",
+      "updated": "Channel {{ param }} 更新成功",
+      "deleted": "Channel {{ param }} 删除成功",
+      "delete": {
+        "question": "你确定要删除 Channel {{ id }} 吗？"
+      },
+      "detail": {
+        "title": "Channel"
+      },
+      "type": "Type",
+      "day": "Day"
+    }
+  }
+}

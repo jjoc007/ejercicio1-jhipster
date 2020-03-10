@@ -1,0 +1,24 @@
+{
+  "broadcastApp": {
+    "transmition": {
+      "home": {
+        "title": "Transmitions",
+        "createLabel": "Crear nuevo Transmition",
+        "createOrEditLabel": "Crear o editar Transmition",
+        "notFound": "Ningún Transmitions encontrado"
+      },
+      "created": "Un nuevo Transmition ha sido creado con el identificador {{ param }}",
+      "updated": "Un Transmition ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Transmition ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Transmition {{ id }}?"
+      },
+      "detail": {
+        "title": "Transmition"
+      },
+      "name": "Name",
+      "calendar": "Calendar",
+      "id": "Id"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "broadcastApp": {
+    "calendar": {
+      "home": {
+        "title": "Calendars",
+        "createLabel": "Lisa uus Calendar",
+        "createOrEditLabel": "Lisa või muuda Calendar",
+        "notFound": "No Calendars found"
+      },
+      "created": "Uus Calendar on loodud identifikaatoriga {{ param }}",
+      "updated": "Calendar identifikaatoriga {{ param }} on muudetud",
+      "deleted": "Calendar identifikaatoriga {{ param }} on kustutatud",
+      "delete": {
+        "question": "Kas olete kindel, et soovite kustutada Calendar {{ id }}?"
+      },
+      "detail": {
+        "title": "Calendar"
+      },
+      "initialHour": "Initial Hour",
+      "finalHour": "Final Hour",
+      "day": "Day",
+      "transmitions": "Transmitions"
+    }
+  }
+}

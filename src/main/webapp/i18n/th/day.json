@@ -1,0 +1,24 @@
+{
+  "broadcastApp": {
+    "day": {
+      "home": {
+        "title": "Days",
+        "createLabel": "สร้าง Day",
+        "createOrEditLabel": "สร้างหรือแก้ไข Day",
+        "notFound": "No Days found"
+      },
+      "created": "Day ถูกสร้างด้วย {{ param }}",
+      "updated": "Day ถูกแก้ไขด้วย {{ param }}",
+      "deleted": "Day ถูกลบด้วย {{ param }}",
+      "delete": {
+        "question": "คุณต้องการที่จะลบ Day {{ id }}?"
+      },
+      "detail": {
+        "title": "Day"
+      },
+      "date": "Date",
+      "channels": "Channels",
+      "calendars": "Calendars"
+    }
+  }
+}

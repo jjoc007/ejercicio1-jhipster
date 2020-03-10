@@ -1,0 +1,24 @@
+{
+  "broadcastApp": {
+    "transmition": {
+      "home": {
+        "title": "Transmitions",
+        "createLabel": "Creeare o nouă entitate Transmition",
+        "createOrEditLabel": "Creeare sau editare Transmition",
+        "notFound": "No Transmitions found"
+      },
+      "created": "A fost creată o nouă entitate Transmition cu identificatorul {{ param }}",
+      "updated": "Transmition cu identificatorul {{ param }} a fost actualizată",
+      "deleted": "Transmition cu identificatorul {{ param }} a fost ștearsă",
+      "delete": {
+        "question": "Sunteți sigur că doriți să ștergeți Transmition {{ id }}?"
+      },
+      "detail": {
+        "title": "Transmition"
+      },
+      "name": "Name",
+      "calendar": "Calendar",
+      "id": "Id"
+    }
+  }
+}

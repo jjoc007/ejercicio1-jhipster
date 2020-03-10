@@ -1,0 +1,24 @@
+{
+  "broadcastApp": {
+    "day": {
+      "home": {
+        "title": "Days",
+        "createLabel": "Egy új Day létrehozása",
+        "createOrEditLabel": "Hozzon létre, vagy módosítson Dayt",
+        "notFound": "No Days found"
+      },
+      "created": "Egy új Day lett létrehozva {{ param }} azonosítóval",
+      "updated": "A Day módosítva lett {{ param }} azonosítóval",
+      "deleted": "A Day törölve lett {{ param }} azonosítóval",
+      "delete": {
+        "question": "Biztos benne, hogy törölni szeretné az Dayt {{ id }} azonosítóval?"
+      },
+      "detail": {
+        "title": "Day"
+      },
+      "date": "Date",
+      "channels": "Channels",
+      "calendars": "Calendars"
+    }
+  }
+}

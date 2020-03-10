@@ -1,0 +1,23 @@
+{
+  "broadcastApp": {
+    "channel": {
+      "home": {
+        "title": "Channels",
+        "createLabel": "नया Channel बनाएँ",
+        "createOrEditLabel": "Channel बनाएँ या संपादित करें",
+        "notFound": "No Channels found"
+      },
+      "created": "एक नया Channel [identifier: {{ param }}] तैयार है",
+      "updated": "एक Channel [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "Channel [identifier: {{ param }}] हटा दिया है",
+      "delete": {
+        "question": "Channel [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "Channel"
+      },
+      "type": "Type",
+      "day": "Day"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "broadcastApp": {
+    "channel": {
+      "home": {
+        "title": "Channels",
+        "createLabel": "Створити новий Channel",
+        "createOrEditLabel": "Створити чи редагувати Channel",
+        "notFound": "No Channels found"
+      },
+      "created": "Новий Channel створений з ідентифікатором {{ param }}",
+      "updated": "Channel оновлений з ідентифікатором {{ param }}",
+      "deleted": "Channel видалений з ідентифікатором {{ param }}",
+      "delete": {
+        "question": "Ви впевнені, що хочете видалити Channel {{ id }}?"
+      },
+      "detail": {
+        "title": "Channel"
+      },
+      "type": "Type",
+      "day": "Day"
+    }
+  }
+}

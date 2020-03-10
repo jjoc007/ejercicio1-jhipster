@@ -1,0 +1,24 @@
+{
+  "broadcastApp": {
+    "transmition": {
+      "home": {
+        "title": "Transmitions",
+        "createLabel": "Yangi Transmition qo`shish",
+        "createOrEditLabel": "Transmitionni tahrirlash",
+        "notFound": "No Transmitions found"
+      },
+      "created": "Transmition {{ param }} bilan qo`shildi",
+      "updated": "{{ param }}- Transmition saqlandi",
+      "deleted": "{{ param }}- Transmition o`chirildi",
+      "delete": {
+        "question": "{{ id }}- Transmitionni o`chirmoqchimisiz? "
+      },
+      "detail": {
+        "title": "Transmition"
+      },
+      "name": "Name",
+      "calendar": "Calendar",
+      "id": "Id"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "broadcastApp": {
+    "day": {
+      "home": {
+        "title": "Days",
+        "createLabel": "Creeare o nouă entitate Day",
+        "createOrEditLabel": "Creeare sau editare Day",
+        "notFound": "No Days found"
+      },
+      "created": "A fost creată o nouă entitate Day cu identificatorul {{ param }}",
+      "updated": "Day cu identificatorul {{ param }} a fost actualizată",
+      "deleted": "Day cu identificatorul {{ param }} a fost ștearsă",
+      "delete": {
+        "question": "Sunteți sigur că doriți să ștergeți Day {{ id }}?"
+      },
+      "detail": {
+        "title": "Day"
+      },
+      "date": "Date",
+      "channels": "Channels",
+      "calendars": "Calendars"
+    }
+  }
+}

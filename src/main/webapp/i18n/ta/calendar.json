@@ -1,0 +1,25 @@
+{
+  "broadcastApp": {
+    "calendar": {
+      "home": {
+        "title": "Calendars",
+        "createLabel": "Calendar-ஐ உருவாக்கு",
+        "createOrEditLabel": "Calendar -ஐ மாற்று (அ) உருவாக்கு",
+        "notFound": "No Calendars found"
+      },
+      "created": "Calendar புதிதாக உருவாக்கப்பட்டது, அடையாளம் {{ param }}",
+      "updated": "Calendar மாற்றப்பட்டது, அடையாளம்  {{ param }}",
+      "deleted": "A Calendar நீக்கப்பட்டது, அடையாளம {{ param }}",
+      "delete": {
+        "question": "நீக்குவதற்கு உறுதி செய் Calendar {{ id }}?"
+      },
+      "detail": {
+        "title": "Calendar"
+      },
+      "initialHour": "Initial Hour",
+      "finalHour": "Final Hour",
+      "day": "Day",
+      "transmitions": "Transmitions"
+    }
+  }
+}

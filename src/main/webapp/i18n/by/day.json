@@ -1,0 +1,24 @@
+{
+  "broadcastApp": {
+    "day": {
+      "home": {
+        "title": "Days",
+        "createLabel": "Стварыць новы Day",
+        "createOrEditLabel": "Стварыць або адрэдагаваць Day",
+        "notFound": "No Days found"
+      },
+      "created": "Новы Day створан з ідэнтыфікатарам {{ param }}",
+      "updated": "Day абноўлен з ідэнтыфікатарам {{ param }}",
+      "deleted": "Day выдален з ідэнтыфікатарам {{ param }}",
+      "delete": {
+        "question": "Вы ўпэўнены, што жадаеце выдаліць Day {{ id }}?"
+      },
+      "detail": {
+        "title": "Day"
+      },
+      "date": "Date",
+      "channels": "Channels",
+      "calendars": "Calendars"
+    }
+  }
+}

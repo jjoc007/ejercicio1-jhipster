@@ -1,0 +1,23 @@
+{
+  "broadcastApp": {
+    "channel": {
+      "home": {
+        "title": "Channels",
+        "createLabel": "Yangi Channel qo`shish",
+        "createOrEditLabel": "Channelni tahrirlash",
+        "notFound": "No Channels found"
+      },
+      "created": "Channel {{ param }} bilan qo`shildi",
+      "updated": "{{ param }}- Channel saqlandi",
+      "deleted": "{{ param }}- Channel o`chirildi",
+      "delete": {
+        "question": "{{ id }}- Channelni o`chirmoqchimisiz? "
+      },
+      "detail": {
+        "title": "Channel"
+      },
+      "type": "Type",
+      "day": "Day"
+    }
+  }
+}

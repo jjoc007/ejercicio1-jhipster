@@ -1,0 +1,24 @@
+{
+  "broadcastApp": {
+    "transmition": {
+      "home": {
+        "title": "Transmitions",
+        "createLabel": "Egy új Transmition létrehozása",
+        "createOrEditLabel": "Hozzon létre, vagy módosítson Transmitiont",
+        "notFound": "No Transmitions found"
+      },
+      "created": "Egy új Transmition lett létrehozva {{ param }} azonosítóval",
+      "updated": "A Transmition módosítva lett {{ param }} azonosítóval",
+      "deleted": "A Transmition törölve lett {{ param }} azonosítóval",
+      "delete": {
+        "question": "Biztos benne, hogy törölni szeretné az Transmitiont {{ id }} azonosítóval?"
+      },
+      "detail": {
+        "title": "Transmition"
+      },
+      "name": "Name",
+      "calendar": "Calendar",
+      "id": "Id"
+    }
+  }
+}

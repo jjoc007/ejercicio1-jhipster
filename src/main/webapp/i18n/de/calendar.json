@@ -1,0 +1,25 @@
+{
+  "broadcastApp": {
+    "calendar": {
+      "home": {
+        "title": "Calendars",
+        "createLabel": "Calendar erstellen",
+        "createOrEditLabel": "Calendar erstellen oder bearbeiten",
+        "notFound": "No Calendars found"
+      },
+      "created": "Calendar erstellt mit ID {{ param }}",
+      "updated": "Calendar aktualisiert mit ID {{ param }}",
+      "deleted": "Calendar gelöscht mit ID {{ param }}",
+      "delete": {
+        "question": "Soll Calendar {{ id }} wirklich dauerhaft gelöscht werden?"
+      },
+      "detail": {
+        "title": "Calendar"
+      },
+      "initialHour": "Initial Hour",
+      "finalHour": "Final Hour",
+      "day": "Day",
+      "transmitions": "Transmitions"
+    }
+  }
+}

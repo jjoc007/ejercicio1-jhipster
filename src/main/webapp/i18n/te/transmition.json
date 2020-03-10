@@ -1,0 +1,24 @@
+{
+  "broadcastApp": {
+    "transmition": {
+      "home": {
+        "title": "Transmitions",
+        "createLabel": "కొత్త Transmition  సృష్టించండి",
+        "createOrEditLabel": "Transmition సృష్టించండి లేదా సవరించండి",
+        "notFound": "No Transmitions found"
+      },
+      "created": "{{ param }} ఐడీ తో ఒక కొత్త Transmition సృష్టించబడినది",
+      "updated": "{{ param }} ఐడీ తో ఒక కొత్త Transmition సవరించబడినది",
+      "deleted": "{{ param }} ఐడీ తో ఒక కొత్త Transmition తొలగించబడినది",
+      "delete": {
+        "question": "మీరు Transmition {{ id }} ఖచ్చితంగా తొలగించాలనుకుంటున్నారా?"
+      },
+      "detail": {
+        "title": "Transmition"
+      },
+      "name": "Name",
+      "calendar": "Calendar",
+      "id": "Id"
+    }
+  }
+}

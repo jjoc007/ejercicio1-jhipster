@@ -1,0 +1,24 @@
+{
+  "broadcastApp": {
+    "transmition": {
+      "home": {
+        "title": "Transmitions",
+        "createLabel": "Kreiraj novi Transmition",
+        "createOrEditLabel": "Kreirajte ili izmenite Transmition",
+        "notFound": "No Transmitions found"
+      },
+      "created": "Kreiran je novi Transmition pod nazivom {{ param }}",
+      "updated": "Transmition pod nazivom {{ param }} je ažuriran",
+      "deleted": "Transmition pod nazivom {{ param }} je obrisan",
+      "delete": {
+        "question": "Da li ste sigurni da želite da obrišete Transmition pod nazivom {{ id }}?"
+      },
+      "detail": {
+        "title": "Transmition"
+      },
+      "name": "Name",
+      "calendar": "Calendar",
+      "id": "Id"
+    }
+  }
+}

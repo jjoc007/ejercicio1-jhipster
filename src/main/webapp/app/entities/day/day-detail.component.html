@@ -1,0 +1,42 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <div *ngIf="day">
+            <h2><span jhiTranslate="broadcastApp.day.detail.title">Day</span> {{ day.id }}</h2>
+
+            <hr>
+
+            <jhi-alert-error></jhi-alert-error>
+
+            <dl class="row-md jh-entity-details">
+                <dt><span jhiTranslate="broadcastApp.day.date">Date</span></dt>
+                <dd>
+                    <span>{{ day.date }}</span>
+                </dd>
+                <dt><span jhiTranslate="broadcastApp.day.channels">Channels</span></dt>
+                <dd>
+                    <div *ngIf="day.channels">
+                        <a [routerLink]="['/channel', day.channels?.id, 'view']">{{ day.channels?.id }}</a>
+                    </div>
+                </dd>
+                <dt><span jhiTranslate="broadcastApp.day.calendars">Calendars</span></dt>
+                <dd>
+                    <div *ngIf="day.calendars">
+                        <a [routerLink]="['/calendar', day.calendars?.id, 'view']">{{ day.calendars?.id }}</a>
+                    </div>
+                </dd>
+            </dl>
+
+            <button type="submit"
+                    (click)="previousState()"
+                    class="btn btn-info">
+                <fa-icon icon="arrow-left"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back">Back</span>
+            </button>
+
+            <button type="button"
+                    [routerLink]="['/day', day.id, 'edit']"
+                    class="btn btn-primary">
+                <fa-icon icon="pencil-alt"></fa-icon>&nbsp;<span jhiTranslate="entity.action.edit">Edit</span>
+            </button>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,24 @@
+{
+  "broadcastApp": {
+    "transmition": {
+      "home": {
+        "title": "Transmitions",
+        "createLabel": "Δημιουργήστε ένα νέο Transmition",
+        "createOrEditLabel": "Δημιουργήστε η επεξεργαστείτε ένα Transmition",
+        "notFound": "No Transmitions found"
+      },
+      "created": "Ένα νέο Transmition έχει δημιουργηθεί με αναγνωριστικό {{ param }}",
+      "updated": "Ένα Transmition έχει ενημερωθεί με αναγνωριστικό {{ param }}",
+      "deleted": "Ένα Transmition έχει διαγραφτεί με αναγνωριστικό {{ param }}",
+      "delete": {
+        "question": "Είστε βέβαιοι όταν θέλετε να διαγράψετε το ακόλουθο Transmition {{ id }};"
+      },
+      "detail": {
+        "title": "Transmition"
+      },
+      "name": "Name",
+      "calendar": "Calendar",
+      "id": "Id"
+    }
+  }
+}

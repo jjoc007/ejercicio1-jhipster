@@ -1,0 +1,25 @@
+{
+  "broadcastApp": {
+    "calendar": {
+      "home": {
+        "title": "Calendars",
+        "createLabel": "Egy új Calendar létrehozása",
+        "createOrEditLabel": "Hozzon létre, vagy módosítson Calendart",
+        "notFound": "No Calendars found"
+      },
+      "created": "Egy új Calendar lett létrehozva {{ param }} azonosítóval",
+      "updated": "A Calendar módosítva lett {{ param }} azonosítóval",
+      "deleted": "A Calendar törölve lett {{ param }} azonosítóval",
+      "delete": {
+        "question": "Biztos benne, hogy törölni szeretné az Calendart {{ id }} azonosítóval?"
+      },
+      "detail": {
+        "title": "Calendar"
+      },
+      "initialHour": "Initial Hour",
+      "finalHour": "Final Hour",
+      "day": "Day",
+      "transmitions": "Transmitions"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "broadcastApp": {
+    "transmition": {
+      "home": {
+        "title": "Transmitions",
+        "createLabel": "Buat Transmition baru",
+        "createOrEditLabel": "Buat atau edit Transmition",
+        "notFound": "No Transmitions found"
+      },
+      "created": "Transmition dengan id {{ param }} telah dibuat",
+      "updated": "Transmition dengan id {{ param }} telah diperbaharui",
+      "deleted": "Transmition dengan id {{ param }} telah dihapus",
+      "delete": {
+        "question": "Apakah anda yakin ingin menghapus Transmition {{ id }}?"
+      },
+      "detail": {
+        "title": "Transmition"
+      },
+      "name": "Name",
+      "calendar": "Calendar",
+      "id": "Id"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "broadcastApp": {
+    "channel": {
+      "home": {
+        "title": "Channels",
+        "createLabel": "Egy új Channel létrehozása",
+        "createOrEditLabel": "Hozzon létre, vagy módosítson Channelt",
+        "notFound": "No Channels found"
+      },
+      "created": "Egy új Channel lett létrehozva {{ param }} azonosítóval",
+      "updated": "A Channel módosítva lett {{ param }} azonosítóval",
+      "deleted": "A Channel törölve lett {{ param }} azonosítóval",
+      "delete": {
+        "question": "Biztos benne, hogy törölni szeretné az Channelt {{ id }} azonosítóval?"
+      },
+      "detail": {
+        "title": "Channel"
+      },
+      "type": "Type",
+      "day": "Day"
+    }
+  }
+}

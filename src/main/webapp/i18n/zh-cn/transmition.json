@@ -1,0 +1,24 @@
+{
+  "broadcastApp": {
+    "transmition": {
+      "home": {
+        "title": "Transmitions",
+        "createLabel": "创建新 Transmition",
+        "createOrEditLabel": "创建或编辑 Transmition",
+        "notFound": "No Transmitions found"
+      },
+      "created": "Transmition {{ param }} 创建成功",
+      "updated": "Transmition {{ param }} 更新成功",
+      "deleted": "Transmition {{ param }} 删除成功",
+      "delete": {
+        "question": "你确定要删除 Transmition {{ id }} 吗？"
+      },
+      "detail": {
+        "title": "Transmition"
+      },
+      "name": "Name",
+      "calendar": "Calendar",
+      "id": "Id"
+    }
+  }
+}

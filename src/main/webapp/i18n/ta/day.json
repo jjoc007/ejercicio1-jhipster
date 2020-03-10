@@ -1,0 +1,24 @@
+{
+  "broadcastApp": {
+    "day": {
+      "home": {
+        "title": "Days",
+        "createLabel": "Day-ஐ உருவாக்கு",
+        "createOrEditLabel": "Day -ஐ மாற்று (அ) உருவாக்கு",
+        "notFound": "No Days found"
+      },
+      "created": "Day புதிதாக உருவாக்கப்பட்டது, அடையாளம் {{ param }}",
+      "updated": "Day மாற்றப்பட்டது, அடையாளம்  {{ param }}",
+      "deleted": "A Day நீக்கப்பட்டது, அடையாளம {{ param }}",
+      "delete": {
+        "question": "நீக்குவதற்கு உறுதி செய் Day {{ id }}?"
+      },
+      "detail": {
+        "title": "Day"
+      },
+      "date": "Date",
+      "channels": "Channels",
+      "calendars": "Calendars"
+    }
+  }
+}

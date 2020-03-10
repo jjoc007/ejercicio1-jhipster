@@ -1,0 +1,25 @@
+{
+  "broadcastApp": {
+    "calendar": {
+      "home": {
+        "title": "Calendars",
+        "createLabel": "สร้าง Calendar",
+        "createOrEditLabel": "สร้างหรือแก้ไข Calendar",
+        "notFound": "No Calendars found"
+      },
+      "created": "Calendar ถูกสร้างด้วย {{ param }}",
+      "updated": "Calendar ถูกแก้ไขด้วย {{ param }}",
+      "deleted": "Calendar ถูกลบด้วย {{ param }}",
+      "delete": {
+        "question": "คุณต้องการที่จะลบ Calendar {{ id }}?"
+      },
+      "detail": {
+        "title": "Calendar"
+      },
+      "initialHour": "Initial Hour",
+      "finalHour": "Final Hour",
+      "day": "Day",
+      "transmitions": "Transmitions"
+    }
+  }
+}

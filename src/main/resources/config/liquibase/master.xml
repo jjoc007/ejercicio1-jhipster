@@ -14,6 +14,14 @@
     <property name="uuidType" value="varchar(36)" dbms="h2, mysql, mariadb"/>
 
     <include file="config/liquibase/changelog/00000000000000_initial_schema.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20200310044700_added_entity_Channel.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20200310044800_added_entity_Day.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20200310044900_added_entity_Calendar.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20200310045000_added_entity_Transmition.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20200310045100_added_entity_Category.xml" relativeToChangelogFile="false"/>
     <!-- jhipster-needle-liquibase-add-changelog - JHipster will add liquibase changelogs here -->
+    <include file="config/liquibase/changelog/20200310044800_added_entity_constraints_Day.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20200310044900_added_entity_constraints_Calendar.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20200310045100_added_entity_constraints_Category.xml" relativeToChangelogFile="false"/>
     <!-- jhipster-needle-liquibase-add-constraints-changelog - JHipster will add liquibase constraints changelogs here -->
 </databaseChangeLog>

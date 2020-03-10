@@ -1,0 +1,24 @@
+{
+  "broadcastApp": {
+    "transmition": {
+      "home": {
+        "title": "Transmitions",
+        "createLabel": "建立一筆新的 Transmition",
+        "createOrEditLabel": "建立或編輯 Transmition",
+        "notFound": "No Transmitions found"
+      },
+      "created": "新的 Transmition 建立成功，識別碼為 {{ param }}",
+      "updated": "識別碼為 {{ param }} 的 Transmition 更新成功",
+      "deleted": "識別碼為 {{ param }} 的 Transmition 刪除成功",
+      "delete": {
+        "question": "您確定要刪除 Transmition {{ id }} 嗎?"
+      },
+      "detail": {
+        "title": "Transmition"
+      },
+      "name": "Name",
+      "calendar": "Calendar",
+      "id": "Id"
+    }
+  }
+}

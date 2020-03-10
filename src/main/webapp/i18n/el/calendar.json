@@ -1,0 +1,25 @@
+{
+  "broadcastApp": {
+    "calendar": {
+      "home": {
+        "title": "Calendars",
+        "createLabel": "Δημιουργήστε ένα νέο Calendar",
+        "createOrEditLabel": "Δημιουργήστε η επεξεργαστείτε ένα Calendar",
+        "notFound": "No Calendars found"
+      },
+      "created": "Ένα νέο Calendar έχει δημιουργηθεί με αναγνωριστικό {{ param }}",
+      "updated": "Ένα Calendar έχει ενημερωθεί με αναγνωριστικό {{ param }}",
+      "deleted": "Ένα Calendar έχει διαγραφτεί με αναγνωριστικό {{ param }}",
+      "delete": {
+        "question": "Είστε βέβαιοι όταν θέλετε να διαγράψετε το ακόλουθο Calendar {{ id }};"
+      },
+      "detail": {
+        "title": "Calendar"
+      },
+      "initialHour": "Initial Hour",
+      "finalHour": "Final Hour",
+      "day": "Day",
+      "transmitions": "Transmitions"
+    }
+  }
+}

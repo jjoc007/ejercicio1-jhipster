@@ -1,0 +1,73 @@
+<div>
+    <h2 id="page-heading">
+        <span jhiTranslate="broadcastApp.day.home.title">Days</span>
+
+        <button id="jh-create-entity" class="btn btn-primary float-right jh-create-entity create-day" [routerLink]="['/day/new']">
+            <fa-icon icon="plus"></fa-icon>
+            <span  jhiTranslate="broadcastApp.day.home.createLabel">
+            Create a new Day
+            </span>
+        </button>
+    </h2>
+
+    <jhi-alert-error></jhi-alert-error>
+
+    <jhi-alert></jhi-alert>
+
+    <div class="alert alert-warning" id="no-result" *ngIf="days?.length === 0">
+        <span jhiTranslate="broadcastApp.day.home.notFound">No days found</span>
+    </div>
+
+    <div class="table-responsive" id="entities" *ngIf="days?.length > 0">
+        <table class="table table-striped" aria-describedby="page-heading">
+            <thead>
+                <tr>
+                    <th scope="col" ><span jhiTranslate="global.field.id">ID</span></th>
+                    <th scope="col" ><span jhiTranslate="broadcastApp.day.date">Date</span></th>
+                    <th scope="col" ><span jhiTranslate="broadcastApp.day.channels">Channels</span></th>
+                    <th scope="col" ><span jhiTranslate="broadcastApp.day.calendars">Calendars</span></th>
+                    <th scope="col"></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let day of days ;trackBy: trackId">
+                    <td><a [routerLink]="['/day', day.id, 'view']">{{ day.id }}</a></td>
+                    <td>{{ day.date }}</td>
+                    <td>
+                        <div *ngIf="day.channels">
+                            <a [routerLink]="['/channel', day.channels?.id, 'view']" >{{ day.channels?.id }}</a>
+                        </div>
+                    </td>
+                    <td>
+                        <div *ngIf="day.calendars">
+                            <a [routerLink]="['/calendar', day.calendars?.id, 'view']" >{{ day.calendars?.id }}</a>
+                        </div>
+                    </td>
+                    <td class="text-right">
+                        <div class="btn-group">
+                            <button type="submit"
+                                    [routerLink]="['/day', day.id, 'view']"
+                                    class="btn btn-info btn-sm">
+                                <fa-icon icon="eye"></fa-icon>
+                                <span class="d-none d-md-inline" jhiTranslate="entity.action.view">View</span>
+                            </button>
+
+                            <button type="submit"
+                                    [routerLink]="['/day', day.id, 'edit']"
+                                    class="btn btn-primary btn-sm">
+                                <fa-icon icon="pencil-alt"></fa-icon>
+                                <span class="d-none d-md-inline" jhiTranslate="entity.action.edit">Edit</span>
+                            </button>
+
+                            <button type="submit" (click)="delete(day)"
+                                    class="btn btn-danger btn-sm">
+                                <fa-icon icon="times"></fa-icon>
+                                <span class="d-none d-md-inline" jhiTranslate="entity.action.delete">Delete</span>
+                            </button>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

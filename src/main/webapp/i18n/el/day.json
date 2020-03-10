@@ -1,0 +1,24 @@
+{
+  "broadcastApp": {
+    "day": {
+      "home": {
+        "title": "Days",
+        "createLabel": "Δημιουργήστε ένα νέο Day",
+        "createOrEditLabel": "Δημιουργήστε η επεξεργαστείτε ένα Day",
+        "notFound": "No Days found"
+      },
+      "created": "Ένα νέο Day έχει δημιουργηθεί με αναγνωριστικό {{ param }}",
+      "updated": "Ένα Day έχει ενημερωθεί με αναγνωριστικό {{ param }}",
+      "deleted": "Ένα Day έχει διαγραφτεί με αναγνωριστικό {{ param }}",
+      "delete": {
+        "question": "Είστε βέβαιοι όταν θέλετε να διαγράψετε το ακόλουθο Day {{ id }};"
+      },
+      "detail": {
+        "title": "Day"
+      },
+      "date": "Date",
+      "channels": "Channels",
+      "calendars": "Calendars"
+    }
+  }
+}

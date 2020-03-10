@@ -1,0 +1,25 @@
+{
+  "broadcastApp": {
+    "calendar": {
+      "home": {
+        "title": "Calendars",
+        "createLabel": "Pridať Calendar",
+        "createOrEditLabel": "Pridať alebo upraviť Calendar",
+        "notFound": "No Calendars found"
+      },
+      "created": "Bol vytvorený potomok entity Calendar s identifikátorom {{ param }}",
+      "updated": "Potomok entity Calendar s identifikátorom {{ param }} bol upravený.",
+      "deleted": "Potomok entity Calendar s identifikátorom {{ param }} bol vymazaný.",
+      "delete": {
+        "question": "Ste si istý, že chcete vymazať Calendar {{ id }}?"
+      },
+      "detail": {
+        "title": "Calendar"
+      },
+      "initialHour": "Initial Hour",
+      "finalHour": "Final Hour",
+      "day": "Day",
+      "transmitions": "Transmitions"
+    }
+  }
+}

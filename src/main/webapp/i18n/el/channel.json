@@ -1,0 +1,23 @@
+{
+  "broadcastApp": {
+    "channel": {
+      "home": {
+        "title": "Channels",
+        "createLabel": "Δημιουργήστε ένα νέο Channel",
+        "createOrEditLabel": "Δημιουργήστε η επεξεργαστείτε ένα Channel",
+        "notFound": "No Channels found"
+      },
+      "created": "Ένα νέο Channel έχει δημιουργηθεί με αναγνωριστικό {{ param }}",
+      "updated": "Ένα Channel έχει ενημερωθεί με αναγνωριστικό {{ param }}",
+      "deleted": "Ένα Channel έχει διαγραφτεί με αναγνωριστικό {{ param }}",
+      "delete": {
+        "question": "Είστε βέβαιοι όταν θέλετε να διαγράψετε το ακόλουθο Channel {{ id }};"
+      },
+      "detail": {
+        "title": "Channel"
+      },
+      "type": "Type",
+      "day": "Day"
+    }
+  }
+}

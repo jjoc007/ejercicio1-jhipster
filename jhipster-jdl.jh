@@ -1,0 +1,51 @@
+/**
+ * Channel entity.
+ */
+entity Channel {
+	id Integer,
+    type String
+}
+
+/**
+ * Day entity.
+ */
+entity Day {
+	id String,
+    date String
+}
+
+/**
+ * Calendar entity.
+ */
+entity Calendar {
+	id String,
+    initialHour String,
+    finalHour String
+}
+
+/**
+ * Transmition entity.
+ */
+entity Transmition {
+	id String required,
+    name String
+}
+
+/**
+ * Category entity.
+ */
+entity Category {
+	id String,
+	name String
+}
+
+relationship ManyToMany {
+	Category{id} to Transmition{id}
+}
+
+// defining multiple OneToMany relationships with comments
+relationship OneToMany {
+	Transmition to Calendar{transmitions},
+    Channel to Day{channels},
+    Calendar to Day{calendars}
+}

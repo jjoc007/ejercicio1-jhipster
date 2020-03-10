@@ -1,0 +1,23 @@
+{
+  "broadcastApp": {
+    "channel": {
+      "home": {
+        "title": "Channels",
+        "createLabel": "Lisa uus Channel",
+        "createOrEditLabel": "Lisa või muuda Channel",
+        "notFound": "No Channels found"
+      },
+      "created": "Uus Channel on loodud identifikaatoriga {{ param }}",
+      "updated": "Channel identifikaatoriga {{ param }} on muudetud",
+      "deleted": "Channel identifikaatoriga {{ param }} on kustutatud",
+      "delete": {
+        "question": "Kas olete kindel, et soovite kustutada Channel {{ id }}?"
+      },
+      "detail": {
+        "title": "Channel"
+      },
+      "type": "Type",
+      "day": "Day"
+    }
+  }
+}

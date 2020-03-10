@@ -1,0 +1,23 @@
+{
+  "broadcastApp": {
+    "channel": {
+      "home": {
+        "title": "Channels",
+        "createLabel": "Maak een nieuwe Channel",
+        "createOrEditLabel": "Maak of wijzig een Channel",
+        "notFound": "No Channels found"
+      },
+      "created": "A new Channel is created with identifier {{ param }}",
+      "updated": "A Channel is updated with identifier {{ param }}",
+      "deleted": "A Channel is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Bent u zeker dat u Channel {{ id }} wilt verwijderen?"
+      },
+      "detail": {
+        "title": "Channel"
+      },
+      "type": "Type",
+      "day": "Day"
+    }
+  }
+}

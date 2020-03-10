@@ -1,0 +1,24 @@
+{
+  "broadcastApp": {
+    "day": {
+      "home": {
+        "title": "Days",
+        "createLabel": "Pridať Day",
+        "createOrEditLabel": "Pridať alebo upraviť Day",
+        "notFound": "No Days found"
+      },
+      "created": "Bol vytvorený potomok entity Day s identifikátorom {{ param }}",
+      "updated": "Potomok entity Day s identifikátorom {{ param }} bol upravený.",
+      "deleted": "Potomok entity Day s identifikátorom {{ param }} bol vymazaný.",
+      "delete": {
+        "question": "Ste si istý, že chcete vymazať Day {{ id }}?"
+      },
+      "detail": {
+        "title": "Day"
+      },
+      "date": "Date",
+      "channels": "Channels",
+      "calendars": "Calendars"
+    }
+  }
+}

@@ -1,0 +1,61 @@
+<div>
+    <h2 id="page-heading">
+        <span jhiTranslate="broadcastApp.channel.home.title">Channels</span>
+
+        <button id="jh-create-entity" class="btn btn-primary float-right jh-create-entity create-channel" [routerLink]="['/channel/new']">
+            <fa-icon icon="plus"></fa-icon>
+            <span  jhiTranslate="broadcastApp.channel.home.createLabel">
+            Create a new Channel
+            </span>
+        </button>
+    </h2>
+
+    <jhi-alert-error></jhi-alert-error>
+
+    <jhi-alert></jhi-alert>
+
+    <div class="alert alert-warning" id="no-result" *ngIf="channels?.length === 0">
+        <span jhiTranslate="broadcastApp.channel.home.notFound">No channels found</span>
+    </div>
+
+    <div class="table-responsive" id="entities" *ngIf="channels?.length > 0">
+        <table class="table table-striped" aria-describedby="page-heading">
+            <thead>
+                <tr>
+                    <th scope="col" ><span jhiTranslate="global.field.id">ID</span></th>
+                    <th scope="col" ><span jhiTranslate="broadcastApp.channel.type">Type</span></th>
+                    <th scope="col"></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let channel of channels ;trackBy: trackId">
+                    <td><a [routerLink]="['/channel', channel.id, 'view']">{{ channel.id }}</a></td>
+                    <td>{{ channel.type }}</td>
+                    <td class="text-right">
+                        <div class="btn-group">
+                            <button type="submit"
+                                    [routerLink]="['/channel', channel.id, 'view']"
+                                    class="btn btn-info btn-sm">
+                                <fa-icon icon="eye"></fa-icon>
+                                <span class="d-none d-md-inline" jhiTranslate="entity.action.view">View</span>
+                            </button>
+
+                            <button type="submit"
+                                    [routerLink]="['/channel', channel.id, 'edit']"
+                                    class="btn btn-primary btn-sm">
+                                <fa-icon icon="pencil-alt"></fa-icon>
+                                <span class="d-none d-md-inline" jhiTranslate="entity.action.edit">Edit</span>
+                            </button>
+
+                            <button type="submit" (click)="delete(channel)"
+                                    class="btn btn-danger btn-sm">
+                                <fa-icon icon="times"></fa-icon>
+                                <span class="d-none d-md-inline" jhiTranslate="entity.action.delete">Delete</span>
+                            </button>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

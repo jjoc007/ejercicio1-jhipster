@@ -1,0 +1,25 @@
+{
+  "broadcastApp": {
+    "calendar": {
+      "home": {
+        "title": "Calendars",
+        "createLabel": "Buat Calendar baru",
+        "createOrEditLabel": "Buat atau edit Calendar",
+        "notFound": "No Calendars found"
+      },
+      "created": "Calendar dengan id {{ param }} telah dibuat",
+      "updated": "Calendar dengan id {{ param }} telah diperbaharui",
+      "deleted": "Calendar dengan id {{ param }} telah dihapus",
+      "delete": {
+        "question": "Apakah anda yakin ingin menghapus Calendar {{ id }}?"
+      },
+      "detail": {
+        "title": "Calendar"
+      },
+      "initialHour": "Initial Hour",
+      "finalHour": "Final Hour",
+      "day": "Day",
+      "transmitions": "Transmitions"
+    }
+  }
+}

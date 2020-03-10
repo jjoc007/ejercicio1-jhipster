@@ -1,0 +1,24 @@
+{
+  "broadcastApp": {
+    "day": {
+      "home": {
+        "title": "Days",
+        "createLabel": "కొత్త Day  సృష్టించండి",
+        "createOrEditLabel": "Day సృష్టించండి లేదా సవరించండి",
+        "notFound": "No Days found"
+      },
+      "created": "{{ param }} ఐడీ తో ఒక కొత్త Day సృష్టించబడినది",
+      "updated": "{{ param }} ఐడీ తో ఒక కొత్త Day సవరించబడినది",
+      "deleted": "{{ param }} ఐడీ తో ఒక కొత్త Day తొలగించబడినది",
+      "delete": {
+        "question": "మీరు Day {{ id }} ఖచ్చితంగా తొలగించాలనుకుంటున్నారా?"
+      },
+      "detail": {
+        "title": "Day"
+      },
+      "date": "Date",
+      "channels": "Channels",
+      "calendars": "Calendars"
+    }
+  }
+}
